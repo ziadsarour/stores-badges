@@ -27,8 +27,8 @@ Use this script in browser console to automate downloading for all locales
 Use cleaner.sh to clean images (transparent background and trimmed).
 Only works with png files.
 
-Should be executed at the root of this folder with the store as the first argument :
-```sh ./cleaner.sh appstore```
-```sh ./cleaner.sh playstore```
+Should be executed at the root of this folder with the store (appstore | playstore) and a color (black | white) :
+```sh ./cleaner.sh appstore white```
+```sh ./cleaner.sh playstore black```
 
-Output files will be located at {store}/_cleaned/{locale}.png.
+Output files will be located at _cleaned/{store}/{color}/{locale}.png.
